@@ -7,8 +7,14 @@ Console.WriteLine("Mod3");
 
 int[] integers = new[] { 1, 2, 3, 4, 5 };
 Console.WriteLine(getAverage(integers));
+Console.WriteLine(getMax(integers));
 
 double getAverage(int[] ints)
 {
     return ints.Average();
+}
+
+double getMax(int[] ints)
+{
+    return ints.Max();
 }
