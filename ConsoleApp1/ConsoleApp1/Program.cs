@@ -9,9 +9,9 @@ int[] integers = new[] { 1, 2, 3, 4, 5 };
 Console.WriteLine(getAverage(integers));
 Console.WriteLine(getMax(integers));
 
-double getAverage(int[] ints)
+double getAverage(int[] integers)
 {
-    return ints.Average();
+    return integers.Average();
 }
 
 double getMax(int[] ints)
